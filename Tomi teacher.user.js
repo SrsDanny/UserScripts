@@ -12,8 +12,8 @@
 
 (function() {
     'use strict';
-    GM_addStyle(`.hidden { background-color: red; color: red; }
-.hidden-check:checked + .hidden { color: white; background-color: green; font-weight: bold; }
+    GM_addStyle(`.hidden { background-color: red; color: red; width: 5em; display: inline-block; }
+.hidden-check:checked + .hidden { color: white; background-color: green; font-weight: bold; display: inline; }
 .hidden-check { position: fixed; top: -100px; }
 .list { position: fixed; right: 0; bottom: 0px; z-index: 99999; width: 35%; height: 40%; background-color: white; border-style: solid; border-width: 2px 0 0 2px; }
 .list p { padding: 8px; }
