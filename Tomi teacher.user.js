@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tomi teacher
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Removes words from <p> and stuff
 // @author       SrsDanny
 // @match        http://www.lemonde.fr/*
